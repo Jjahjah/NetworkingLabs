@@ -1,0 +1,22 @@
+Oct 19 23:01:55.043 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Oct 19 23:01:55.044 HYPERVISOR: Started on IP = localhost, TCP port = 65484.
+Oct 19 23:01:55.053 HYPERVISOR: exec_cmd: hypervisor version 
+Oct 19 23:01:55.053 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\jonat\Desktop\INFO3605 - Assignment 1  [816032904]\INFO3605 - Assignment 1  [816032904]\INFO 3605 - Assignment 1 - VLANS - [816032904]\project-files\dynamips 
+Oct 19 23:01:55.053 GENERAL: working_dir=C:\Users\jonat\Desktop\INFO3605 - Assignment 1  [816032904]\INFO3605 - Assignment 1  [816032904]\INFO 3605 - Assignment 1 - VLANS - [816032904]\project-files\dynamips
+Oct 19 23:01:55.054 HYPERVISOR: exec_cmd: ethsw create SW11 
+Oct 19 23:01:55.245 HYPERVISOR: exec_cmd: nio create_udp udp-551a4e10-ae0a-4240-842a-4b6aaa747d7c 10000 127.0.0.1 10001 
+Oct 19 23:01:55.245 HYPERVISOR: exec_cmd: ethsw add_nio SW11 udp-551a4e10-ae0a-4240-842a-4b6aaa747d7c 
+Oct 19 23:01:55.255 HYPERVISOR: exec_cmd: ethsw set_dot1q_port SW11 udp-551a4e10-ae0a-4240-842a-4b6aaa747d7c 81 
+Oct 19 23:01:55.527 HYPERVISOR: exec_cmd: nio create_udp udp-50e15611-0864-49be-87e0-466fcd4f0cf3 10004 127.0.0.1 10005 
+Oct 19 23:01:55.528 HYPERVISOR: exec_cmd: ethsw add_nio SW11 udp-50e15611-0864-49be-87e0-466fcd4f0cf3 
+Oct 19 23:01:55.534 HYPERVISOR: exec_cmd: ethsw set_dot1q_port SW11 udp-50e15611-0864-49be-87e0-466fcd4f0cf3 81 
+Oct 19 23:01:55.561 HYPERVISOR: exec_cmd: nio create_udp udp-56188ee6-8b8d-46ca-bd9e-5fe09e74bdff 10006 127.0.0.1 10007 
+Oct 19 23:01:55.561 HYPERVISOR: exec_cmd: ethsw add_nio SW11 udp-56188ee6-8b8d-46ca-bd9e-5fe09e74bdff 
+Oct 19 23:01:55.566 HYPERVISOR: exec_cmd: ethsw set_dot1q_port SW11 udp-56188ee6-8b8d-46ca-bd9e-5fe09e74bdff 81 
+Oct 19 23:01:55.593 HYPERVISOR: exec_cmd: nio create_udp udp-25a679d7-598e-45a8-ab4e-f27a860257c4 10008 127.0.0.1 10009 
+Oct 19 23:01:55.594 HYPERVISOR: exec_cmd: ethsw add_nio SW11 udp-25a679d7-598e-45a8-ab4e-f27a860257c4 
+Oct 19 23:01:55.597 HYPERVISOR: exec_cmd: ethsw set_dot1q_port SW11 udp-25a679d7-598e-45a8-ab4e-f27a860257c4 111 
+Oct 19 23:09:37.240 HYPERVISOR: exec_cmd: ethsw delete SW11 
+Oct 19 23:09:37.342 HYPERVISOR: exec_cmd: hypervisor stop 
+Oct 19 23:09:37.622 HYPERVISOR: Stopped.
+Oct 19 23:09:37.622 GENERAL: reset done.
